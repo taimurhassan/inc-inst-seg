@@ -6,6 +6,10 @@ This repository contains the source code (developed using <b>TensorFlow 2.1.0</b
 ![Block-Diagram](/images/BD.jpg) 
 <p align="center"> Block Diagram of the Proposed Framework</p>
 
+
+![Block-Diagram](/images/CIENet.png) 
+<p align="center"> CIE-Net Architecture</p>
+
 ## Installation and Configuration
 <p align="justify">
    
