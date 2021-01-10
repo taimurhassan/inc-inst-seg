@@ -3,7 +3,7 @@
 This repository contains the source code (developed using <b>TensorFlow 2.1.0</b> and <b>Keras 2.3.0</b>) and the complete documentation about the proposed incremental instance segmentation framework.
 </p>
 
-![Block-Diagram](/images/BD.png) 
+![Block-Diagram](/images/BD.jpg) 
 <p align="center"> Block Diagram of the Proposed Framework</p>
 
 ## Installation and Configuration
