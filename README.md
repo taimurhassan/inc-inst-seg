@@ -114,6 +114,7 @@ This repository contains the source code (developed using <b>TensorFlow 2.1.0</b
 2) Use 'tester.py' file to extract segmentation results for each model instance (the model results will be saved in 'segmentation_resultsk' folder for kth model instance).
 3) We have also provided some converter scripts to convert e.g. original SIXray XML annotations into MATLAB structures, to port TF keras models into MATLAB etc.
 4) Also, we have provided some utility files (in the training_utils folder) to resize dataset scans, change the coloring scheme of the CIE-Net outputs and visualize them, to apply post-processing, bounding box generation etc. 
+5) Please note that to run MvRF-CNN, the images have to be resized to the resolution of 320x240x3. The resizer script is in the 'training_utils' folder.
 
 </p>
 
