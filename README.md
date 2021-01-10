@@ -24,7 +24,7 @@ This repository contains the source code (developed using <b>TensorFlow 2.1.0</b
 4) The mask-level annotations for the baggage X-ray datasets can be downloaded from the following links:
    - GDXray [URL]()
    - SIXray [URL]()
-   
+   ```
    For COCO dataset, please use the MaskAPIs (provided by the dataset authors) to generate the mask-level and box-level annotations from the JSON files. We have also uploaded these APIs within the repository.
 
 5) For training, please provide the training configurations of the desired dataset in ‘config.py’ file.
