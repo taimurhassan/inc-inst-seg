@@ -1,10 +1,12 @@
 # A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items
 <p align="justify">
-This repository contains the source code (developed using <b>TensorFlow 2.1.0</b> and <b>Keras 2.3.0</b>) and the complete documentation about the proposed incremental instance segmentation framework.
+This repository contains the source code (developed using <b>TensorFlow 2.1.0</b> and <b>Keras 2.3.0</b>) for the proposed incremental instance segmentation framework.
 </p>
 
 ![Block-Diagram](/images/BD.jpg) 
 <p align="center"> Block Diagram of the Proposed Framework</p>
+
+The documentation related to installation, configuration, dataset, training protocols is given below. Moroever, the detailed architectural description of the CIE-Net is available in 'model_summary.txt' file.
 
 ## Installation and Configuration
 <p align="justify">
@@ -58,10 +60,10 @@ This repository contains the source code (developed using <b>TensorFlow 2.1.0</b
 │   │   ...
 │   │   └── tr_image_m.png
 │   ├── valGT_1
-│   │   └── tr_image_1.png
-│   │   └── tr_image_2.png
+│   │   └── va_image_1.png
+│   │   └── va_image_2.png
 │   │   ...
-│   │   └── tr_image_o.png
+│   │   └── va_image_o.png
 │   ...
 │   ├── valGT_K
 │   │   └── va_image_1.png
