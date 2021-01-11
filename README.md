@@ -115,7 +115,7 @@ The documentation related to installation, configuration, dataset, training prot
 <p align="justify">
    
 1) Use 'trainer.py' to incrementally train the CIE-Net. The following script will also save the model instances in the h5 file. For MvRF-CNN, use 'trainer2.py' script.
-2) Use 'tester.py' file to extract segmentation results for each model instance (the model results will be saved in 'segmentation_resultsk' folder for kth model instance).
+2) Use 'tester.py' file to extract segmentation results for each model instance (the model results will be saved in 'segmentation_resultsk' folder for kth model instance). For MvRF-CNN, use 'tester2.py' script.
 3) We have also provided some converter scripts to convert e.g. original SIXray XML annotations into MATLAB structures, to port TF keras models into MATLAB etc.
 4) Also, we have provided some utility files (in the 'utils' folder) to resize dataset scans, to generate bounding boxes from CIE-Net mask output, to change the coloring scheme of the CIE-Net outputs for better visualization, and to apply post-processing etc. 
 5) Please note that to run MvRF-CNN, the images have to be resized to the resolution of 320x240x3. The resizer script is in the 'utils' folder.
