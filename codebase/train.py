@@ -44,16 +44,7 @@ def incrementalLearningLoss(yTrue,yPred, iteration, oldClasses, newClasses):
         like1 = (1./(np.sqrt(2.*3.1415)*s1))*K.exp(-0.5*((yOldP-m1)**2./(s1**2.)))
             
         yOldNewP = like1 * pOld 
-        
-        yNewP = (yOldP * yNewP) / yOldP 
-        m2 = K.mean(yNewP)
-        s2 = K.std(yNewP)       
-        like2 = (1./(np.sqrt(2.*3.1415)*s2))*K.exp(-0.5*((yNewP-m2)**2./(s2**2.)))
-        
-        yNewP = like2 * pNew
-        
-        yP = tf.concat([yOldP,yNewP],0)
-        
+                
         #print(tf.size(yP))
         #print(yP)
         loss = a1 * K.mean(K.categorical_crossentropy(yot,yop)) +  a2 * K.mean(keras.losses.kullback_leibler_divergence(ynt,ynp)) +  a3 * K.mean(K.categorical_crossentropy(yOldT,yOldNewP))
