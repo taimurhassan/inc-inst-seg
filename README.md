@@ -29,7 +29,7 @@ The documentation related to installation, configuration, dataset, training prot
 
 5) The box-level annotations for both baggage X-ray datasets are already released by the dataset authors. 
 
-6) For COCO dataset, please use the MaskAPIs (provided by the dataset authors) to generate the mask-level and box-level annotations from the JSON files. We have also uploaded these APIs within the repository.
+6) For COCO dataset, please use the MaskAPIs (provided by the dataset authors) to generate the mask-level and box-level annotations from the JSON files. We have also uploaded these APIs within this repository.
 
 7) For training, please provide the training configurations of the desired dataset in ‘config.py’ file.
 
