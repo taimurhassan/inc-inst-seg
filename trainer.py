@@ -62,7 +62,7 @@ def trainModelsIncrementally(numIterations):
             train_annotations = trainingGTPaths[i],
             val_images =  validationImagesPaths[i],
             val_annotations = validationGTPaths[i],
-            checkpoints_path = None , epochs=1, validate=doValidate, iteration = i + 1, oldClasses = prevClasses, newClasses = newClasses[i]
+            checkpoints_path = None , epochs=20, validate=doValidate, iteration = i + 1, oldClasses = prevClasses, newClasses = newClasses[i]
             )
             
             prevClasses = prevClasses + newClasses[i]
@@ -74,7 +74,7 @@ def trainModelsIncrementally(numIterations):
             train_annotations = trainingGTPaths[i],
             val_images =  validationImagesPaths[i],
             val_annotations = validationGTPaths[i],
-            checkpoints_path = None , epochs=1, validate=doValidate, iteration = i + 1, oldClasses = prevClasses, newClasses = newClasses[i]
+            checkpoints_path = None , epochs=10, validate=doValidate, iteration = i + 1, oldClasses = prevClasses, newClasses = newClasses[i]
             )
             
             prevClasses = prevClasses + newClasses[i]
