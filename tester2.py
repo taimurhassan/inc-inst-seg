@@ -26,7 +26,7 @@ def extractResults(model, rPath):
         print(filename)
         out = model.predict_segmentation(inp=os.path.join(folder,filename),
         out_fname=os.path.join(rPath,filename))
-        print(model.evaluate_segmentation( inp_images_dir="testingDataset/test_images/resized/", annotations_dir="testingDataset/test_annotations/resized/" ) )
+        print(model.evaluate_segmentation( inp_images_dir="testingDataset/test_images/", annotations_dir="testingDataset/test_annotations/" ) )
 
 def loadModels(numIterations):
     prevClasses = 0
