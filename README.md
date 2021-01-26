@@ -19,7 +19,7 @@ The documentation related to installation, configuration, dataset, training prot
    - OpenCV 4.2 or above
    - imgaug 0.2.9 or above
    - tqdm   
-3) Download the desired dataset:
+3) Download the desired dataset (the dataset description file is also available in this repository):
    - GDXray [URL](https://domingomery.ing.puc.cl/material/gdxray/)
    - SIXray [URL](https://github.com/MeioJane/SIXray)
    - COCO-2017 [URL](https://cocodataset.org/#download)
