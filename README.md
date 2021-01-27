@@ -25,7 +25,8 @@ The documentation related to installation, configuration, dataset, training prot
    - COCO-2017 [URL](https://cocodataset.org/#download)
 4) The mask-level annotations for the baggage X-ray datasets can be downloaded from the following links:
    - GDXray [URL](https://drive.google.com/file/d/1P3bUCCiY0eOCPF-PVJf_Ag4NQQ7SkzUW/view?usp=sharing)
-   - SIXray [URL](https://drive.google.com/file/d/1-fh5OxgqHzp1Ue7iQNo8YF09AT0feakY/view?usp=sharing)
+   - SIXray [URL](https://drive.google.com/file/d/1OrigspHr4C6jXywZWif9dp2Pr6odWEwX/view?usp=sharing)
+   <>(https://drive.google.com/file/d/1-fh5OxgqHzp1Ue7iQNo8YF09AT0feakY/view?usp=sharing)
 
 5) The box-level annotations for both baggage X-ray datasets are already released by the dataset authors. 
 
