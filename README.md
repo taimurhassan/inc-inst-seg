@@ -132,7 +132,7 @@ If you use the proposed incremental instance segmentation framework (or any part
 @article{cienet,
   title   = {A Novel Incremental Learning Driven Instance Segmentation Framework to Recognize Highly Cluttered Instances of the Contraband Items},
   author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
-  journal = {Submitted in IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  journal = {IEEE Transactions on Systems, Man, and Cybernetics: Systems},
   year = {2021}
 }
 ```
